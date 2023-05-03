@@ -1,5 +1,7 @@
 import React from 'react'
 
+import "./styles.css"
+
 import { Props } from './types';
 
 const Title = (props: Props) => {

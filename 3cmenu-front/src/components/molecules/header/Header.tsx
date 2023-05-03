@@ -8,14 +8,17 @@ import './header.css'
 
 import {Props} from './types';
 
-const style = {backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: 'contain',
+const style = {
+    backgroundImage: `url(${backgroundImage})`,
     backgroundPosition: 'center',}
 
 const Header = (props : Props) => {
     return <div className={props.clasName} style={style}>
-        <Title>{props.title}</Title>
-        <Subtitle>{props.subtitle}</Subtitle>
+        <div>
+            <Title className='main-title block'>{props.title}</Title>
+            <Subtitle className='main-subtitle block'>{props.subtitle}</Subtitle>
+        </div>
+        
     </div>
 }
 

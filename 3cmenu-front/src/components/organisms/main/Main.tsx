@@ -14,7 +14,7 @@ const Main = () => {
     },[]);
 
     return <>
-            <Header clasName="container" title = "3c COMIDAS" subtitle = "Menu del dia"/>
+            <Header clasName="container flex content-center" title = "3C COMIDAS" subtitle = "Menu del dia"/>
             <MainMenu products={products}/>
         </> 
 }

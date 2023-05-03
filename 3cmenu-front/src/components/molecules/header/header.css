@@ -1,3 +1,13 @@
 .container{
     height: 18rem;
+    align-items: center;
+}
+
+.content-center{
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: 'column',
 }
